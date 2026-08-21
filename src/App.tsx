@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import EmployeeTable from './EmployeeTable';
 import './App.css'
 
