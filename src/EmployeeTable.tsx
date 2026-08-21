@@ -22,10 +22,12 @@ const EmployeeTable = () => {
                         // Executes if the request fails (HTTP 4xx, 5xx, or network issues)
                         console.error('Error fetching data:', error);
                         setError("failed to fetch data");
+                        alert("failed to fetch data");
                     });
 
             } catch (err: any) {
                 setError(err.message);
+                alert("failed to fetch data");
             } finally {
                 setLoading(false);
             }
