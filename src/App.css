@@ -1,0 +1,47 @@
+.table_wrapper table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  background: #f3f3f3;
+}
+
+.table_wrapper table thead {
+  background-color: #009879;
+  color: white
+}
+
+.table_wrapper table tr td,
+.table_wrapper table tr th {
+  padding: 5px;
+}
+
+.table_wrapper table tr td {
+  border-bottom: 1px solid #d1c8c8;
+}
+
+.table_wrapper table tr:last-child td {
+  border-bottom: 2px solid#009879;
+}
+
+.pagination_btns {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.pagination_btns button {
+  padding: 10px;
+  background-color: #009879;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.pagination_btns span {
+  padding: 10px 20px;
+  background-color: #009879;
+  color: white;
+  border-radius: 5px;
+}
